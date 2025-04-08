@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                  // Set the JavaScript language version
+    "module": "ESNext",                  // Use native ES modules
+    "moduleResolution": "node",          // Resolve modules like Node.js
+    "outDir": "dist",                    // Output directory for compiled files
+    "rootDir": "src",                    // Root directory of input files
+    "strict": true,                      // Enable all strict type-checking options
+    "esModuleInterop": true,             // Allow default imports from CommonJS modules
+    "forceConsistentCasingInFileNames": true, // Enforce consistent casing in imports
+    "skipLibCheck": true                 // Skip type checking of declaration files
+  },
+  "include": ["src"],                    // Include source files
+  "exclude": ["node_modules", "dist"]   // Exclude unnecessary folders,
+}
